@@ -23,11 +23,10 @@ public class Test {
 		double moyenne = sc.nextDouble();
 		
 		
-		Etudiant etudiant1 = new Etudiant();
 		
-		//Etudiant etudiant2 = new Etudiant(nom, age, moyenne, adresse);
+		Etudiant etudiant2 = new Etudiant(nom, age, moyenne, adresse);
 		
-		etudiant1.info();
+		etudiant2.info();
 	}
 
 }
